@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:text="Start diagnosis"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+    
+    <Button
+        android:id="@+id/btn_history"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:text="View diagnosis history"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+    
+    <Button
+        android:id="@+id/btn_pictures"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:text="View pictures"
+        android:textColor="@color/black"
+        android:textSize="22sp" /> 
+
+</LinearLayout>
